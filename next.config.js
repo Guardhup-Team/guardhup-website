@@ -2,8 +2,11 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  basePath: '/guardhup-website',
+  assetPrefix: '/guardhup-website/',
+  output: 'export',
   images: {
-    domains: ['guardhup.com'],
+    unoptimized: true,
   },
 }
 
